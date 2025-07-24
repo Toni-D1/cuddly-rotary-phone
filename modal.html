@@ -1,0 +1,17 @@
+<button onclick="openModal()">Open Modal</button>
+
+<div id="modal" style="display:none;">
+    <h2>Modal Title</h2>
+    <p>This is a modal window.</p>
+    <button onclick="closeModal()">Close</button>
+</div>
+
+<script>
+    function openModal() {
+        document.getElementById('modal').style.display = 'block';
+    }
+
+    function closeModal() {
+        document.getElementById('modal').style.display = 'none';
+    }
+</script>
